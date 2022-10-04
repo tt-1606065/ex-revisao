@@ -17,11 +17,13 @@ body {
 
 main {
     padding: 20px;
+    /* background-color: blue; */
 }
 
 /* COMPONENTES */
 
 .formulario-cadastro {
+    /* background-color: red; */
     height: 100%;
     /* padding: 20px; */
 }
