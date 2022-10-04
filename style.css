@@ -1,0 +1,70 @@
+/* RESETS */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* LAYOUT */
+body {
+    background-color: #C3CFD9;
+}
+
+.cabecalho {
+    background-color: #DFE6ED;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* COMPONENTES */
+
+.formulario-cadastro {
+    height: 100%;
+    /* padding: 20px; */
+}
+
+.formulario-cadastro__input {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 4px;
+    border: solid rgb(183, 183, 183) 2px;
+}
+
+.formulario-cadastro__input::placeholder {
+    color: gray;
+}
+
+.formulario-cadastro__botao {
+    background-color: #4B5C6B;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+.formulario-cadastro__resultado {
+    background-color: #4B5C6B;
+    padding: 4px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    margin-top: 2px;
+    display: none;
+}
+
+.sucesso {
+    background-color: #207868;
+}
+
+.erro {
+    background-color: #AC6363;
+}
+

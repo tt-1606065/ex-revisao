@@ -5,18 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <h1>CSS e JS PRO</h1>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">CSS e JS PRO</h1>
     </header>
     <main>
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <button>Cadastrar</button>
+        <div class="formulario-cadastro">
+            <input placeholder="E-mail" class="formulario-cadastro__input" type="text" name="" id="">
+            <input placeholder="Senha" class="formulario-cadastro__input" type="text" name="" id="">
+            <button class="formulario-cadastro__botao">Cadastrar</button>
+            <div class="formulario-cadastro__resultado sucesso">Enviado com Sucesso!</div>
+            <div class="formulario-cadastro__resultado erro">Enviado com Erro!</div>
+        </div>
     </main>
 </body>
+
 
 </html>
